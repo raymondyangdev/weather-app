@@ -14,9 +14,12 @@ body {
             rgba(0, 212, 255, 1) 100%
         )
         fixed;
+    height: 100vh;
 }
 
-.flex-container {
+/* Navbar */
+
+.nav-container {
     background-color: rgb(128, 128, 128, 0.5);
     height: 64px;
     display: flex;
@@ -42,4 +45,23 @@ body {
 
 a.nav-text {
     padding: 16px;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: auto;
+}
+
+.footer span {
+    color: red;
+}
+
+.footer-container {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: flex-end;
 }
