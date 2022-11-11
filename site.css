@@ -1,0 +1,45 @@
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(193, 88, 215);
+    background: linear-gradient(
+            0deg,
+            rgba(193, 88, 215, 1) 0%,
+            rgba(0, 212, 255, 1) 100%
+        )
+        fixed;
+}
+
+.flex-container {
+    background-color: rgb(128, 128, 128, 0.5);
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-text {
+    color: white;
+    text-decoration: none;
+    gap: 24px;
+}
+
+#brand {
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+}
+
+#links {
+    margin-right: 32px;
+}
+
+a.nav-text {
+    padding: 16px;
+}
