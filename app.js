@@ -5,7 +5,6 @@ window.addEventListener('load', function (req, res) {
             `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`
         );
         const weatherData = await response.json();
-        console.log(weatherData);
         setWeatherData(weatherData);
     }
 
@@ -70,10 +69,8 @@ window.addEventListener('load', function (req, res) {
         if (hours >= 12) {
             hours -= 12;
         }
-        return hours + ':' + minutes;
+        return hours + ':' + minutes.substr(-2);
     }
-
-    getCurrentDate();
 
     function getCurrentDate() {
         const weekday = [
