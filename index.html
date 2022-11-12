@@ -33,61 +33,33 @@
                 </div>
             </div>
         </nav>
-
-        <!-- Search -->
-        <section>
-            <div class="container">
-                <div id="search">
-                    <form>
-                        <input
-                            type="text"
-                            id="searchBar"
-                            size="48"
-                            placeholder="Search a city..."
-                        />
-                        <button id="searchBtn" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-
-        <!-- Weather Card -->
-        <section>
-            <div class="card">
-                <div class="location">
-                    <figure id="weatherImg">
-                        <img
-                            src="https://img.icons8.com/color/512/summer--v1.png"
-                            alt="Condition"
-                            height="64px"
-                            width="64px"
-                        />
-                    </figure>
-                    <div id="city">
-                        Auckland, NZ
-                        <div id="date">Saturday 12/11/2022</div>
+        <div class="container">
+            <!-- Search -->
+            <section>
+                <div class="search-container">
+                    <div id="search">
+                        <form id="form">
+                            <input
+                                type="text"
+                                id="searchBar"
+                                size="48"
+                                placeholder="Search a city..."
+                            />
+                            <button id="searchBtn" type="submit">Search</button>
+                        </form>
                     </div>
                 </div>
-                <div class="details">
-                    <div class="weatherInfo" id="weatherTemp">
-                        22<sup>°C</sup>
-                    </div>
-                    <div class="weatherInfo" id="weatherDescription">
-                        MOSTLY CLOUDY
-                    </div>
+            </section>
+
+            <!-- Weather Card -->
+            <section class="weatherSection"><div class="card"></div></section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-container">
+                    <small>Made with <span>❤</span> by Raymond Yang</small>
                 </div>
-
-                <!-- <div class="advancedInfo">
-
-                </div> -->
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="footer-container">
-                <small>Made with <span>❤</span> by Raymond Yang</small>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </body>
 </html>
