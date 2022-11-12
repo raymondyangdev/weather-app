@@ -121,6 +121,22 @@ a.nav-text {
     font-size: 50px;
 }
 
+.rise-set {
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+}
+
+.rise-set > figure {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#sunrise{
+    padding-right: 50px;
+}
+
 /* Footer */
 
 .footer {
