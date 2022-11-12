@@ -85,16 +85,8 @@ a.nav-text {
 }
 
 /* Card */
-#cardPlaceholder {
-    background-color: rgb(0, 0, 0, 0.0);
-    color: white;
-    border-radius: 50px;
-    width: 300px;
-    height: 400px;
-    margin: 0 auto;
-}
 .card {
-    background-color: rgb(0, 0, 0, 0.2);
+    background-color: rgb(0, 0, 0, 0);
     color: white;
     border-radius: 50px;
     width: 300px;

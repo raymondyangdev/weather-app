@@ -68,6 +68,8 @@ window.addEventListener('load', function () {
                 </div>
             </div>
             </div>`;
+            const card = document.querySelector('.card');
+            card.style.backgroundColor = `rgb(100, 0, 0, 0.2)`;
     }
 
     function unixToTime(unix) {
