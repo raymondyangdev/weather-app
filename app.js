@@ -1,4 +1,13 @@
-window.addEventListener('load', function (req, res) {
+window.addEventListener('load', function () {
+    const form = document.querySelector('#form');
+    const input = document.querySelector('#searchBar');
+
+    form.addEventListener('submit', function (action) {
+        action.preventDefault();
+        const city = input.value;
+        getWeatherByCity(city);
+    });
+
     async function getWeatherByCity(city) {
         const API_KEY = 'd4481f790e5ddf29504d0a40618f0417';
         const response = await fetch(
